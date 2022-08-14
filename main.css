@@ -1,0 +1,194 @@
+.navbar{
+    background-image: linear-gradient(to right, rgb(77, 0, 0) 70%, white);
+  
+}
+ .nav-link{
+font-family: Cursive;
+}
+ .navbar .nav-item:hover .nav-link{
+    background-color: white ;
+    text-decoration: underline black;
+    border-radius: 30px;
+    color: black;
+
+}
+.media{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(77, 0, 0) 70%, white);
+    
+}
+.media img{
+    
+    transform: rotateY(180deg );
+    animation-name: moves;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes moves{
+    25%{
+        left: 120%;
+    }
+    50%{
+        transform: rotateY(360deg);
+        left: -120%;
+    }
+
+
+}
+.media p{
+    color: white;
+    font-family: cursive;
+}
+.media h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+.media h3{
+    font-family: cursive;
+    color: white;
+}
+.l1{
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black 80%, white);
+    width: 50%;
+    height: 1px;
+    
+}
+.l2{
+    border: dotted;
+    background-color: white;
+    width: 40%;
+    
+    
+}
+.l3{
+    border: dotted;
+    background-color: white;
+    width: 30%;
+}
+.media img{
+    margin: 80px;
+}
+.Gallary{
+    background-image: linear-gradient(to right, rgb(77, 0, 0) 70%, white);
+    margin-top: 20px;
+
+}
+.Gallary h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+.Gallary l1{
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black 80%, white);
+    width: 50%;
+    height: 1px;
+
+}
+.Gallary l2{
+    border: dotted;
+    background-color: white;
+    width: 40%;
+
+}
+.Gallary .l3{
+    border: dotted;
+    background-color: white;
+    width: 30%;
+}
+.tab-content img{
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    
+
+}.tab-content{
+    margin-left: 10%;
+    
+}
+.nav{
+    margin: auto;
+    border-radius: 50px;
+    border: solid 0.6px black;
+    width: 55%;
+}
+.nav .nav-item:hover .nav-link{
+    border-radius: 50px;
+    background-color: white;
+    color: black ;
+    font-family: sans-serif ;
+
+}
+.nav .nav-link{
+   
+    font-family: sans-serif ;
+    color: white;
+    border-radius: 50px;
+    margin: auto;  
+}
+.contact{
+    background-image: linear-gradient(to right, rgb(77, 0, 0) 70%, white);
+    margin-top: 20px;
+
+}
+.contact h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+.contact l1{
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black 80%, white);
+    width: 50%;
+    height: 1px;
+
+}
+.contact l2{
+    border: dotted;
+    background-color: white;
+    width: 40%;
+
+}
+.contact .l3{
+    border: dotted;
+    background-color: white;
+    width: 30%;
+}
+.form-group{
+    color: white;
+   
+}
+
+.m iframe{
+    width: 500px;
+    height: 300px;
+}
+
+.footer{
+   background-image: linear-gradient(to right, rgb(77, 0, 0) 70%, white);
+  margin-top: 20px;
+}
+.footer h3{
+    color: white;
+    font-family:serif;
+    margin-top: 10px;
+  
+}
+.footer p{
+    color: white;
+    font-family: cursive;
+    
+
+}
+.footer hr{
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, black 75%, white);
+}
+.footer .pp{
+    display: inline; 
+    padding-right: 75%;
+}
